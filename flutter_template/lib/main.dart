@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: GradientContainer(
-          colours: [Colors.deepPurple, Colors.deepOrange],
+          colours: [Colors.deepOrange, Colors.deepPurple],
         ),
       ),
     );
