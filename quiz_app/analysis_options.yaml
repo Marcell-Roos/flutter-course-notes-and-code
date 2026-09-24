@@ -9,6 +9,11 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
+# Makes `dart format` (and VS Code's format-on-save) wrap lines more
+# aggressively than the 80-column default.
+formatter:
+  page_width: 60
+
 analyzer:
   exclude:
     - build/**
