@@ -1,5 +1,6 @@
 // This is not the template app anymore,
 // it is heavy modified for a follow along
+
 import 'package:flutter/material.dart';
 import 'package:flutter_template/gradient_container.dart';
 
